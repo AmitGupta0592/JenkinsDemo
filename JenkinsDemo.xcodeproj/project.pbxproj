@@ -15,6 +15,7 @@
 		BADDF8BB1E8A28A200FDEC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADDF8B91E8A28A200FDEC01 /* LaunchScreen.storyboard */; };
 		BADDF8C61E8A28A300FDEC01 /* JenkinsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDF8C51E8A28A300FDEC01 /* JenkinsDemoTests.m */; };
 		BADDF8D11E8A28A300FDEC01 /* JenkinsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDF8D01E8A28A300FDEC01 /* JenkinsDemoUITests.m */; };
+		BADDF8DF1E8A2A0300FDEC01 /* 1490609046.png in Resources */ = {isa = PBXBuildFile; fileRef = BADDF8DE1E8A2A0300FDEC01 /* 1490609046.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BADDF8CC1E8A28A300FDEC01 /* JenkinsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADDF8D01E8A28A300FDEC01 /* JenkinsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsDemoUITests.m; sourceTree = "<group>"; };
 		BADDF8D21E8A28A300FDEC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADDF8DE1E8A2A0300FDEC01 /* 1490609046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1490609046.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		BADDF8AA1E8A28A200FDEC01 /* JenkinsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BADDF8DE1E8A2A0300FDEC01 /* 1490609046.png */,
 				BADDF8AE1E8A28A200FDEC01 /* AppDelegate.h */,
 				BADDF8AF1E8A28A200FDEC01 /* AppDelegate.m */,
 				BADDF8B11E8A28A200FDEC01 /* ViewController.h */,
@@ -207,6 +210,7 @@
 				TargetAttributes = {
 					BADDF8A71E8A28A200FDEC01 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 946RV72GY8;
 					};
 					BADDF8C01E8A28A300FDEC01 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BADDF8DF1E8A2A0300FDEC01 /* 1490609046.png in Resources */,
 				BADDF8BB1E8A28A200FDEC01 /* LaunchScreen.storyboard in Resources */,
 				BADDF8B81E8A28A200FDEC01 /* Assets.xcassets in Resources */,
 				BADDF8B61E8A28A200FDEC01 /* Main.storyboard in Resources */,
@@ -415,9 +420,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JenkinsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.immanent.JenkinsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.immanent.test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,9 +432,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JenkinsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.immanent.JenkinsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.immanent.test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

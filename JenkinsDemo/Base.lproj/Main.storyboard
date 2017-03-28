@@ -1,25 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jenkin's Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsU-67-cPT">
+                                <rect key="frame" x="69" y="6" width="182" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9gw-X4-M4j"/>
+                                    <constraint firstAttribute="width" constant="182" id="eHg-it-agD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1490609046.png" translatesAutoresizingMaskIntoConstraints="NO" id="A4f-1g-pUO">
+                                <rect key="frame" x="24" y="64" width="272" height="440"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="440" id="ZXj-V2-tyj"/>
+                                    <constraint firstAttribute="width" constant="272" id="jiI-pw-i5r"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.44705882349999998" green="0.64705882349999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NsU-67-cPT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="6" id="Of4-uW-K6B"/>
+                            <constraint firstItem="A4f-1g-pUO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YYW-AP-zfQ"/>
+                            <constraint firstItem="A4f-1g-pUO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hrP-mx-yxg"/>
+                            <constraint firstItem="NsU-67-cPT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wPU-f3-J5z"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="336" y="318"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1490609046.png" width="556" height="616"/>
+    </resources>
 </document>
