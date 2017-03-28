@@ -210,7 +210,7 @@
 				TargetAttributes = {
 					BADDF8A71E8A28A200FDEC01 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 75DT98X3F9;
+						DevelopmentTeam = 9Z59VK8KP3;
 					};
 					BADDF8C01E8A28A300FDEC01 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -427,6 +427,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: David Bonifant (7SU8A42GEC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Bonifant (7SU8A42GEC)";
 				INFOPLIST_FILE = JenkinsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.ngcgroupinc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +442,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: David Bonifant (7SU8A42GEC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Bonifant (7SU8A42GEC)";
 				INFOPLIST_FILE = JenkinsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.ngcgroupinc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,6 +527,7 @@
 				BADDF8D71E8A28A300FDEC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BADDF8D81E8A28A300FDEC01 /* Build configuration list for PBXNativeTarget "JenkinsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +536,7 @@
 				BADDF8DA1E8A28A300FDEC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BADDF8DB1E8A28A300FDEC01 /* Build configuration list for PBXNativeTarget "JenkinsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +545,7 @@
 				BADDF8DD1E8A28A300FDEC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
